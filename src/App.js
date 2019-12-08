@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* global fetch */
 
-function App() {
+import React, { useEffect, useState } from 'react'
+import Buscador from './components/Buscador'
+import ListadoImagenes from './components/ListadoImagenes'
+
+function App () {
+  const [busqueda, guardarBusqueda] = useState('')
+  const [imagenes, guardarImagenes] = useState([])
+
+  useEffect(() => {
+    const consultarApi = async () => {
+      if (busqueda === '') return
+
+      const imagenesPorPagina = 30
+      const key = '14544519-37006504098626f9d791a10c9'
+      const url = `https://pixabay.com/api/?key=${key}&q=${busqueda}&per_page=${imagenesPorPagina}`
+
+      const respuesta = await fetch(url)
+      const resultado = await respuesta.json()
+
+      guardarImagenes(resultado.hits)
+    }
+
+    consultarApi()
+  }, [busqueda])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app container'>
+      <div className='jumbotron'>
+        <p className='lead text-center'>Buscador de Imágenes</p>
+        <Buscador guardarBusqueda={guardarBusqueda} />
+      </div>
+      <div className='row justify-content-center'>
+        <ListadoImagenes imagenes={imagenes} />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
