@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2157395-10b9-4737-8b75-d8697564bd52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/eslintPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buscador.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Imagen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ListadoImagenes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,8 +113,23 @@
       <workItem from="1575731273307" duration="220000" />
       <workItem from="1575731509505" duration="1948000" />
       <workItem from="1575803580633" duration="10563000" />
-      <workItem from="1575846476023" duration="1984000" />
+      <workItem from="1575846476023" duration="2230000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding All">
+      <created>1575848572879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575848572879</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding All">
+      <created>1575848586863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575848586863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +141,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding All" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding All" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -185,10 +179,10 @@
     <state x="702" y="531" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1440@0.0.2560.1440" timestamp="1575847079369" />
     <state x="567" y="413" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/55.23.1865.1057@55.23.1865.1057" timestamp="1575806177365" />
     <state x="754" y="546" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/71.23.2489.1417@71.23.2489.1417" timestamp="1575845768095" />
-    <state x="1492" y="320" key="CommitChangelistDialog2" timestamp="1575848572550">
+    <state x="1492" y="320" key="CommitChangelistDialog2" timestamp="1575848586676">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1492" y="320" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1575848572550" />
+    <state x="1492" y="320" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1575848586676" />
     <state width="1257" height="604" key="GridCell.Tab.0.bottom" timestamp="1575848530336">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -284,14 +278,18 @@
     <state x="763" y="208" key="SettingsEditor/55.23.1865.1057@55.23.1865.1057" timestamp="1575804281443" />
     <state x="767" y="208" width="1032" height="722" key="SettingsEditor/62.23.1858.1057@62.23.1858.1057" timestamp="1575732268486" />
     <state x="1243" y="374" width="1187" height="797" key="SettingsEditor/71.23.2489.1417@71.23.2489.1417" timestamp="1575845966268" />
+    <state x="1521" y="460" key="Vcs.Push.Dialog.v2" timestamp="1575848591838">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1521" y="460" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1575848591838" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1575803876729">
       <screen x="55" y="23" width="1865" height="1057" />
     </state>
     <state width="600" height="424" key="javadoc.popup/55.23.1865.1057@55.23.1865.1057" timestamp="1575803876729" />
-    <state x="1252" y="320" width="670" height="676" key="search.everywhere.popup" timestamp="1575847074974">
+    <state x="1252" y="320" width="670" height="676" key="search.everywhere.popup" timestamp="1575848664941">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1252" y="320" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1575847074974" />
+    <state x="1252" y="320" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1575848664941" />
     <state x="967" y="258" key="search.everywhere.popup/55.23.1865.1057@55.23.1865.1057" timestamp="1575803600016" />
   </component>
 </project>
